@@ -22,6 +22,10 @@ body {
   font-size: 15px;
   align-items: center; }
 
+.promos-sep {
+  display: flex;
+  flex-direction: row; }
+
 .imagenes-promo {
   width: 200px;
   height: 200px;
@@ -81,7 +85,7 @@ body {
   display: flex; }
 
 .pa-nos {
-  font-size: 25px; }
+  font-size: 20px; }
 
 .equipo {
   display: flex;
@@ -102,26 +106,24 @@ body {
     position: relative; }
     .equipo .equipo-miembro h3 {
       color: violet;
-      font-size: 30px;
+      font-size: 18px;
       margin-top: 120px; }
     .equipo .equipo-miembro p.actividad {
       color: #af11a7;
       margin: 12px 0;
-      font-size: 25px;
+      font-size: 15px;
       text-transform: uppercase; }
-    .equipo .equipo-miembro p {
-      font-size: 30px; }
-    .equipo .equipo-miembro .miembro-img {
-      position: absolute;
-      top: -50px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 300px;
-      height: 300px; }
-      .equipo .equipo-miembro .miembro-img img {
-        width: 190px;
-        height: 190px;
-        border-radius: 50%; }
+  .equipo .miembro-img {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 300px; }
+    .equipo .miembro-img img {
+      width: 190px;
+      height: 190px;
+      border-radius: 50%; }
 
 #about {
   margin-bottom: 2px;
@@ -226,4 +228,6 @@ textarea {
     max-height: 150px;
     max-width: 100%; }
   .nosotros-info {
-    width: auto; } }
+    width: auto; }
+  .promos-sep {
+    flex-direction: column; } }
